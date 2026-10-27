@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    display: flex;
+    margin: 10px 100px;
+    gap: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoitem{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    align-items: baseline;
+    align-items: first baseline;
+    background-color: yellow;
+    padding: 10px 50px;
+    
+    border-radius: 10px;
+
+}

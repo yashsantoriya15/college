@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(14, 215, 161);
+}
+
+* {
+  background-color: rgb(245, 36, 210);
+  color: wheat;
+}
+
+#product {
+  background-color: blue;
+  color: wheat;
+  padding: 10px;
+  border-radius: 10px;
+}
+.name {
+  background-color: rgb(15, 221, 29);
+  color: wheat;
+  padding: 10px;
+  border-radius: 10px;
+}

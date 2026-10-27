@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.box{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+}
+
+.mainbox{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+}

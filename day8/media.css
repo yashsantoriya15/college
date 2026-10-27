@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+.card{
+    background-color: red;
+    flex: 1;
+    padding: 30px;
+    font-size: 24px;
+}
+@media (max-width:768px) {
+ .card{
+    background-color: yellow;
+    font-size: 16px;
+ }
+}
+@media (max-width:600px) {
+    .card{
+        background-color: blue;
+        color: white;
+    }
+    .card:hover{
+        background-color: black;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
